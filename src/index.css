@@ -420,7 +420,6 @@ Nav Links
   .nav-links {
     display: flex;
     justify-content: center;
-
     align-self: stretch;
   }
   .nav-center {
@@ -452,6 +451,7 @@ Submenu
   .submenu {
     display: block;
     position: fixed;
+    /* top: 4rem; */
     top: 7rem;
     left: 50%;
     width: var(--fluid-width);
